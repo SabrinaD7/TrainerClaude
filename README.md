@@ -6,9 +6,16 @@
 
 ## Tiivistelmä
 
-TrainerClaude on toimiva AI-koutsijärjestelmä, joka soveltaa urheilutieteen periaatteita yksittäisen urheilijan ("Athlete X") multi-modaaliseen treeniin (voima, kestävyys, lajiharjoittelu). Yhdistää Claude Skills -ominaisuuden, Notion-tietokannat ja workflow-pohjaisen intent-reitityksen.
+TrainerClaude Coach on henkilökohtainen AI-avusteinen urheiluvalmentaja, joka on rakennettu urheilijan pitkäjänteiseen harjoittelun suunnitteluun, analysointiin ja kuormituksen hallintaan.
 
-Repo demonstroi arkkitehtonisia ratkaisuja, joita syvä-domain LLM-agentit vaativat: kontekstinhallinta, ulkoistettu tila, deterministinen reititys ja sääntöjen eksplisiittinen koodaus.
+Projektin päätavoitteena ei ollut rakentaa geneeristä chatbotia, vaan tutkia miten syvä-domain LLM-agentti voidaan suunnitella toimimaan johdonmukaisesti tilanteessa, jossa:
+
+- konteksti on pitkäkestoinen
+- päätöksenteko sisältää numeroita ja sääntöjä
+- tila täytyy säilyttää keskustelujen välillä
+- turvallisuus ja kuormituksen hallinta ovat kriittisiä
+
+Repo toimii samalla sekä henkilökohtaisena valmennusjärjestelmänä että demonstraationa modulaarisesta prompt-arkkitehtuurista Claude Skills -ekosysteemissä.
 
 ---
 
