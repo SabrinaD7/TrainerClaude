@@ -131,7 +131,6 @@ Käyttäjän vastustus sääntöä kohtaan on signaali — joko sääntö on vä
 
 Tämä on **lähes mahdoton geneerisellä Claude.ai-keskustelulla** ilman edellistä rakennetta — LLM ei muista edellisiä sessioita eikä sovella ACWR-laskentaa kontekstissa.
 
-Sanitisoituja esimerkkejä: [`examples/`](./examples/)
 
 ---
 
@@ -145,7 +144,7 @@ Sanitisoituja esimerkkejä: [`examples/`](./examples/)
 
 **4. Käyttäjän vastustus on signaali, ei häiriö.** Kun käyttäjä toistuvasti vastusti tiettyä sääntöä, pyrkimys oli aluksi vakuuttaa käyttäjä uudelleen. Oikea reaktio: tutkia, miksi sääntö ei sovi yksilölle, ja päivittää järjestelmää. Järjestelmä ei ole auktoriteetti, vaan työkalu, joka iteroi käyttäjän kanssa.
 
-Syvempi pohdinta: [`docs/prompt-engineering.md`](./docs/prompt-engineering.md)
+Syvempi pohdinta: (./docs/prompt-engineering.md)
 
 ---
 
@@ -163,9 +162,8 @@ Järjestelmä koodaa eksplisiittisesti seuraavat periaatteet:
 - **Zourdos et al. 2016** — RIR-pohjainen RPE voimaharjoittelussa
 - **Plews & Buchheit 2017** — HRV-monitorointi
 
-Täydellinen lähdeluettelo: [`references/scientific-sources.md`](./references/scientific-sources.md)
 
-Järjestelmä välttää tieteellisesti heikosti perusteltuja claimeja (esim. cycle-pohjainen periodisaatio, ihme-palautumistekniikat) — tämä on tietoinen suunnittelupäätös.
+Järjestelmä välttää tieteellisesti heikosti perusteltuja claimeja (esim. cycle-pohjainen periodisaatio, "ihme" -palautumistekniikat) — tämä on tietoinen suunnittelupäätös.
 
 ---
 
