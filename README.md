@@ -144,7 +144,7 @@ Tämä on **lähes mahdoton geneerisellä Claude.ai-keskustelulla** ilman edelli
 
 **4. Käyttäjän vastustus on signaali, ei häiriö.** Kun käyttäjä toistuvasti vastusti tiettyä sääntöä, pyrkimys oli aluksi vakuuttaa käyttäjä uudelleen. Oikea reaktio: tutkia, miksi sääntö ei sovi yksilölle, ja päivittää järjestelmää. Järjestelmä ei ole auktoriteetti, vaan työkalu, joka iteroi käyttäjän kanssa.
 
-Syvempi pohdinta: (./docs/prompt-engineering.md)
+Syvempi pohdinta löytyy prompt-engineering.md tiedostosta.
 
 ---
 
@@ -237,5 +237,3 @@ MIT — vapaasti käytettävissä ja muunneltavissa.
 - Context budget management as a first-class design concern
 - Separation of immutable knowledge (skill files) from mutable state (Notion)
 - Engineering discipline applied to prompt design (versioning, changelog, design decisions)
-
-See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for technical detail and [`docs/prompt-engineering.md`](./docs/prompt-engineering.md) for lessons learned.
